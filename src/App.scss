@@ -26,7 +26,7 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
-section {
+section:not(.footer) {
   padding: 50px;
   // text-align: center;
   // margin: auto;
