@@ -12,7 +12,7 @@
   .hero_down {
     border-top: 2px solid lightgrey;
     border-bottom: 2px solid lightgrey;
-    padding-bottom: 50px;
+    padding: 10px 0px 50px;
   }
   .concept {
     font-size: 12px;
@@ -28,5 +28,11 @@
   img {
     width: 25%;
     height: 15vh;
+  }
+  .featured {
+    padding: 7em 0 0;
+    .title {
+      padding-bottom: 3em;
+    }
   }
 }

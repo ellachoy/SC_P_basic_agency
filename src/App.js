@@ -16,6 +16,8 @@ import News from './pages/News';
 import Thinking from './pages/Thinking';
 import Contact from './pages/Contact';
 import Menu from './pages/Menu';
+import Footer from './components/Footer/Footer';
+
 
 // best practice: css am Ende importieren
 import './App.scss';
@@ -54,7 +56,10 @@ function App() {
           <Route exact path='/menu'>
             <Menu />
           </Route>
+
         </Switch>
+        <Footer />
+
       </Router>
     </div>
   );
