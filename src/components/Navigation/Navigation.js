@@ -11,12 +11,10 @@ const Navigation = () => {
     return (
         <div className='navigation'>
             <nav>
-                <ul>
-                    <li>
-                        <Link exact to="/">
+            <Link exact to="/"className="nav_logo">
                             <img src={logo} alt="" />
                         </Link>
-                    </li>
+                <ul>
                     <li>
                         <NavLink exact to="/work">
                             WORK
@@ -41,13 +39,11 @@ const Navigation = () => {
                         <NavLink exact to="/contact">
                             CONTACT
                         </NavLink>
-                    </li>
-                    <li>
-                        <Link exact to="/menu">
+                    </li>  
+                </ul>
+                <Link exact to="/menu" className="nav_link">
                             <img src={menu} alt="" />
                         </Link>
-                    </li>
-                </ul>
             </nav>
         </div>
     );
