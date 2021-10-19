@@ -24,10 +24,15 @@
   }
   .description {
     width: 50%;
+    font-size: 1.5em;
   }
   img {
     width: 25%;
     height: 15vh;
+  }
+  button:hover {
+    background-color: black;
+    color: #fff;
   }
   .featured {
     padding: 7em 0 0;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navigation.scss';
-import logo from '../../assets/img/logo.svg';
+import navlogo from '../../assets/img/logo.svg';
 import menu from '../../assets/img/menu.svg';
 
 import { NavLink } from "react-router-dom";
@@ -11,8 +11,8 @@ const Navigation = () => {
     return (
         <div className='navigation'>
             <nav>
-            <Link exact to="/"className="nav_logo">
-                            <img src={logo} alt="" />
+            <Link exact to="/">
+                            <img src={navlogo} className="nav_logo"  alt="" />
                         </Link>
                 <ul>
                     <li>
@@ -41,8 +41,8 @@ const Navigation = () => {
                         </NavLink>
                     </li>  
                 </ul>
-                <Link exact to="/menu" className="nav_link">
-                            <img src={menu} alt="" />
+                <Link exact to="/menu" className="link_pop" >
+                            <img src={menu} className="pop_link"alt="" />
                         </Link>
             </nav>
         </div>

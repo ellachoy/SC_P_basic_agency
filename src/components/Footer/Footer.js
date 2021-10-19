@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import logo from '../../assets/img/footer-logo.svg';
+import logofooter from '../../assets/img/footer-logo.svg';
 
 
 
@@ -8,14 +8,15 @@ const Footer= () => {
     return ( 
 <section className="footer_up">
     <div className="collabo">
-        <img src={logo} classname="footer_logo" alt="" />
+        <img src={logofooter} classname="footer_logo" alt="" />
         <h4 className="connect">We collaborate with ambitious<br/> brands and people. <span>Let’s connect:</span>
         </h4>
     </div>
     <div className="contact">
      <ul className="stay">
-         <li>⚪️ STAY IN THE KNOW</li>
+         ⚪️ STAY IN THE KNOW
          <li>Email Adress</li>
+         <li></li>
      </ul>
      <ul className="contact_info"> Social
          <li><a href="#">Instagram </a></li>
@@ -38,11 +39,9 @@ const Footer= () => {
 
     </div>
     <div className="footer_below">
-    BASIC®, INC 10 - 20©
-EASY TO UNDERSTAND, IMPOSSIBLE TO IGNORE.™
-TERMS, PRIVACY POLICY
-
-
+        <p> BASIC®  INC 10 - 20©</p>
+        <p>EASY TO UNDERSTAND  IMPOSSIBLE TO IGNORE.™</p>
+        <p>TERMS  PRIVACY POLICY</p>
     </div>
 
 </section>
