@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 // sfc
 const Navigation = () => {
     return (
-        <div className='navigation'>
+        <section className='navigation'>
             <nav>
             <Link exact to="/">
                             <img src={navlogo} className="nav_logo"  alt="" />
@@ -41,11 +41,13 @@ const Navigation = () => {
                         </NavLink>
                     </li>  
                 </ul>
-                <Link exact to="/menu" className="link_pop" >
-                            <img src={menu} className="pop_link"alt="" />
-                        </Link>
+                
+                <Link exact to="/menu"  >
+                    <img src={menu} className="pop_link"alt="" />
+                </Link>
+               
             </nav>
-        </div>
+        </section>
     );
 }
 

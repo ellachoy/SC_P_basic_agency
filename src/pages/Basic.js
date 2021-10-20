@@ -12,7 +12,7 @@ const Basic = () => {
                 <h1 className="starts_title">WHAT’S NEXT <br/> STARTS</h1>
                 <h1 className="here">● HERE</h1> 
                 <div className="hero_mp">
-                    <video src={mp4} controls autoplay loop></video>
+                    <video src={mp4} controls autoPlay="autoplay" loop></video>
                     </div> 
                 <div className="hero_down">   
                     <p className="concept">STRATEGY, DESIGN, TECHNOLOGY</p> 

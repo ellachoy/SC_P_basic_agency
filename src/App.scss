@@ -26,7 +26,7 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
-section:not(.footer) {
+section:not(.footer, .companies) {
   padding: 50px;
   // text-align: center;
   // margin: auto;
