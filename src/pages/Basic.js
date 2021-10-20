@@ -1,5 +1,6 @@
 import React from 'react';
 import Featured from '../components/Featured/Featured';
+import BasicNews from '../components/BasicNews/BasicNews';
 import './Basic.scss';
 
 import logo_branding from '../assets/img/branding-img.svg';
@@ -41,6 +42,7 @@ const Basic = () => {
                         <video src={Culture} controls autoPlay="autoplay" loop id="culture_mp"></video>
                     </div>
                 </article>
+                <BasicNews />
             </section>
           
         </div>
