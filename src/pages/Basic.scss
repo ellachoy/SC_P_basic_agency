@@ -3,10 +3,10 @@
     text-align: right;
   }
 
-  video {
+  #hero_mp {
     margin-top: 20px;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
   }
   .hero_down {
     border-top: 2px solid lightgrey;
@@ -26,18 +26,42 @@
     width: 50%;
     font-size: 1.5em;
   }
-  img {
+  #logo_branding {
     width: 25%;
     height: 15vh;
   }
-  button:hover {
-    background-color: black;
-    color: #fff;
-  }
+  // #btn_black:hover {
+  //   background-color: black;
+  //   color: #fff;
+  // }
   .featured {
     padding: 7em 0 0;
     .title {
       padding-bottom: 3em;
+    }
+  }
+  .below_black {
+    background-color: rgb(37, 37, 34);
+    color: #f9cdcd;
+    .culture {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .culture_title {
+        font-size: 3em;
+        padding: 15%;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 12px;
+        margin-bottom: 50px;
+      }
+      #culture_mp {
+        margin-top: 20px;
+        width: 100%;
+        height: 50vh;
+      }
+     
     }
   }
 }
