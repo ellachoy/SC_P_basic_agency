@@ -3,7 +3,7 @@
 
 
 ### Technologien: React, json, Sass
-#### bearbeitet mit Bildschirm grösse 1440px.
+#### -bearbeitet mit Bildschirm grösse 1440px.
 
 
 
