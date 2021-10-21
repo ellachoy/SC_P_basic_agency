@@ -6,15 +6,27 @@ import './BasicNews.scss';
 // sfc
 const BasicNews = () => {
     return (
-        <section className="BasicNews">
-            {BasicNewsData.map((basicnews,elt)=> <div key={elt} className="news_index">
-            <img src={basicnews.image} alt="com" className="basicnews_img"/>
-            <h5 clssName="com_name">{basicnews.title}</h5>
-            <p className="line"></p>
-            <p className="com_description">{basicnews.info}</p>
+        <div className="BasicNews">
+            
+            <h2>FEATURED <br/> NEWS</h2>
+         
+                {BasicNewsData.map((basicnews,elt)=> <div key={elt} className="news_index">
+               <article clssName="news">
+                   <div className="news_container">
+                    <img src={basicnews.image} alt="com" className="basicnews_img"/>
+                    </div>
+                    <div>
+                        <h2 clssName="com_name">{basicnews.title}</h2>
+                        <p className="line"></p>
+                        <p className="com_description">{basicnews.info}
+                        <span>{basicnews.date}</span></p>
+                    </div>
+                </article>
             </div>
-        )}    
-        </section>
+           
+        )}
+        </div>    
+       
     );
 }
 
