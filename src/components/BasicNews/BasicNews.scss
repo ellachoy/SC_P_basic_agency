@@ -1,11 +1,31 @@
 .BasicNews {
-  .news {
+  #basicnews_title {
+    padding: 150px 100px 50px 0;
+  }
+  .news_container {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-  }
 
-  .basicnews_img {
-    width: 30%;
+    border-top: 1px solid #f9cdcd;
+    padding: 10px 0 25px;
+    .com_title {
+      width: 50%;
+    }
+
+    .basicnews_img {
+      width: 30%;
+      padding-right: 15px;
+    }
+    .basicnews_arrow {
+      width: 2.5%;
+      margin-bottom: 100px;
+    }
+    .com_description {
+      padding-top: 30px;
+      font-size: 10px;
+      span {
+        margin-left: 10px;
+      }
+    }
   }
 }
