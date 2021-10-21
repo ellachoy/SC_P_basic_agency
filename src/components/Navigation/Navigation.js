@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 // sfc
 const Navigation = () => {
     return (
-        <section className='navigation'>
+        <div className='navigation'>
             <nav>
             <Link exact to="/">
                             <img src={navlogo} className="nav_logo"  alt="" />
@@ -47,7 +47,7 @@ const Navigation = () => {
                 </Link>
                
             </nav>
-        </section>
+        </div>
     );
 }
 

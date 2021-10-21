@@ -1,0 +1,16 @@
+.work {
+  article {
+    .work_title {
+      width: 30%;
+      margin-bottom: 10%;
+      #work_ball:before {
+        content: '⚫️';
+      }
+    }
+    .work_info {
+      width: 35%;
+      margin: 0 0 15% 70%;
+      font-size: 12px;
+    }
+  }
+}

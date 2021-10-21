@@ -20,22 +20,22 @@ const Footer= () => {
                 <li></li>
             </ul>
             <ul className="contact_info"> Social
-                <li><a href="#">Instagram </a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li>Instagram </li>
+                <li>Twitter</li>
+                <li>Linkedin</li>
+                <li>Facebook</li>
             </ul>
             <ul> INITIATIVES
-                <li><a href="#">Crafted  </a></li>
-                <li><a href="#">Culture Manual</a></li>
-                <li><a href="#">Applied </a></li>
-                <li><a href="#">Brandbeats</a></li>
-                <li><a href="#">Moves</a></li>
+                <li>Crafted  </li>
+                <li>Culture Manual</li>
+                <li>Applied </li>
+                <li>Brandbeats</li>
+                <li>Moves</li>
             </ul>
             <ul> OFFICES
-                <li><a href="#">San Diego – CA</a></li>
-                <li><a href="#">Bay Area – CA</a></li>
-                <li><a href="#">St. Louis – MO</a></li>
+                <li>San Diego – CA</li>
+                <li>Bay Area – CA</li>
+                <li>St. Louis – MO</li>
             </ul>
 
         </div>
