@@ -52,12 +52,4 @@ const Footer= () => {
  
 export default Footer ;
 
-// STAY IN THE KNOW
-// Social 
-// Instagram Twitter Linkedin Facebook
-// INITIATIVES
-// Crafted Culture Manual Applied Brandbeats Moves
-// OFFICES
-// San Diego – CA
-// Bay Area – CA
-// St. Louis – MO
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import WorkIntroData from '../../data/WorkIntro.json'
-// import WorkShow from './WorkShow.js';
+// import WorkShowData from '../../data/WorkShow.json'
+import WorkShow from './WorkShow.js';
 import './WorkIntro.scss';
 const WorkIntro = () => {
     return (
@@ -18,20 +19,15 @@ const WorkIntro = () => {
                         </button>
                     </div>
                     <div class="workdata_box_right">
-                    <figure>
+                    <WorkShow/>
+                    {/* <figure>
                         <img src={workIntrodata.image} alt="com" className="brand_img"/>
                         <figurecaption> 
                         <h5 className="brand_title">{workIntrodata.title}</h5>
                         <p className="brand_info">{workIntrodata.info}</p>
                         </figurecaption>
-                    </figure> 
-                    <figure>
-                        <img src={workIntrodata.image} alt="com" className="brand_img"/>
-                        <figurecaption> 
-                        <h5 className="brand_title">{workIntrodata.title}</h5>
-                        <p className="brand_info">{workIntrodata.info}</p>
-                        </figurecaption>
-                    </figure> 
+                    </figure>  */}
+                   
                     </div>
                   
                 </article>

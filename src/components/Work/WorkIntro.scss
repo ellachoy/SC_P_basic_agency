@@ -20,11 +20,11 @@
       color: #fff;
     }
     .workdata_box_right {
-      display: grid;
-      grid-template-columns: 2fr 2fr;
+      display: flex;
+
       figure {
         .brand_img {
-          width: 30%;
+          width: 70%;
         }
       }
     }

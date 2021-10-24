@@ -13,6 +13,7 @@
         width: 5%;
         height: 5vh;
       }
+
       .connect {
         margin-right: 15px;
         margin-bottom: 20px;
@@ -41,6 +42,9 @@
       border-bottom: 2px solid lightgrey;
       width: 350px;
     }
+  }
+  ul {
+    height: 50vh;
   }
   ul:not(.stay) {
     padding: 35px;
