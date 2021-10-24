@@ -1,7 +1,8 @@
 import React from 'react';
 import WorkIntroData from '../../data/WorkIntro.json'
 // import WorkShowData from '../../data/WorkShow.json'
-import WorkShow from './WorkShow.js';
+import WorkShow1 from './WorkShow1.js';
+import WorkShow2 from './WorkShow2.js';
 import './WorkIntro.scss';
 const WorkIntro = () => {
     return (
@@ -19,7 +20,8 @@ const WorkIntro = () => {
                         </button>
                     </div>
                     <div class="workdata_box_right">
-                    <WorkShow/>
+                    <WorkShow1/>
+                    <WorkShow2/>
                     {/* <figure>
                         <img src={workIntrodata.image} alt="com" className="brand_img"/>
                         <figurecaption> 
