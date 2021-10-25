@@ -9,12 +9,12 @@
       {
         "image": "/img/google-store.jpg",
         "title": "Google Store",
-        "info": "We go beyond best pratices..."
+        "info": "AN ECOMMERCE EXPERIENCE HELPING GOOGLE BRING ITS HARDWARE TO PEOPLE ACROSS THE GLOBE"
       },
       {
-        "image": "/img/Riot.jpg",
-        "title": "Riot Games",
-        "info": "REVITALIZING THE RIOT GAMES BRAND WITH AN UPGRADED DIGITAL EXPERIENCE"
+        "image": "/img/Beats.jpg",
+        "title": "Beats By Dre",
+        "info": "NGINEERING A DIGITAL DESTINATION THAT MOVES AT THE SPEED OF CULTURE"
       }
     ]
   },
@@ -26,14 +26,14 @@
     "btn": "Learn More",
     "brandimages": [
       {
-        "image": "/img/Beats.jpg",
-        "title": "Beats By Dre",
-        "info": "NGINEERING A DIGITAL DESTINATION THAT MOVES AT THE SPEED OF CULTURE"
+        "image": "/img/Fender.jpg",
+        "title": "Fender Academy",
+        "info": "A WEB SERVICE TO MAKE SALES TRAINING FEEL LESS LIKE WORK AND MORE LIKE PLAY"
       },
       {
-        "image": "/img/Softbank.jpg",
-        "title": "SoftBank Vision Fund",
-        "info": "BUILDING A DIGITAL DESTINATION FOR THE LEADING TECH INVESTMENT FUND"
+        "image": "/img/AMEX.jpg",
+        "title": "American Express",
+        "info": "LAYING A DESIGN FOUNDATION FOR FUTURE PRODUCTS AND SERVICES WITH THE OPEN APP"
       }
     ]
   },
@@ -45,14 +45,14 @@
     "btn": "Learn More",
     "brandimages": [
       {
-        "image": "/img/Fender.jpg",
-        "title": "Fender Academy",
-        "info": "A WEB SERVICE TO MAKE SALES TRAINING FEEL LESS LIKE WORK AND MORE LIKE PLAY"
+        "image": "/img/Riot.jpg",
+        "title": "Riot Games",
+        "info": "REVITALIZING THE RIOT GAMES BRAND WITH AN UPGRADED DIGITAL EXPERIENCE"
       },
       {
-        "image": "/img/NERD.jpg",
-        "title": "NERD Skincare",
-        "info": "DEVELOPING A BRAND THAT BROUGHT SCIENCE TO BEAUTY IN BOLD, UNEXPECTED WAYS"
+        "image": "/img/Softbank.jpg",
+        "title": "SoftBank Vision Fund",
+        "info": "BUILDING A DIGITAL DESTINATION FOR THE LEADING TECH INVESTMENT FUND"
       }
     ]
   },
@@ -64,9 +64,9 @@
     "btn": "Learn More",
     "brandimages": [
       {
-        "image": "/img/AMEX.jpg",
-        "title": "American Express",
-        "info": "LAYING A DESIGN FOUNDATION FOR FUTURE PRODUCTS AND SERVICES WITH THE OPEN APP"
+        "image": "/img/NERD.jpg",
+        "title": "NERD Skincare",
+        "info": "DEVELOPING A BRAND THAT BROUGHT SCIENCE TO BEAUTY IN BOLD, UNEXPECTED WAYS"
       },
       {
         "image": "/img/Beats.jpg",

@@ -1,17 +1,32 @@
 .workpage {
   .workMain {
     .work_page {
-      display: grid;
-      grid-template-columns: 3fr 3fr;
-      padding: 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
       border-top: 1px solid darkgrey;
+      padding: 10px;
       #workdata_box_left {
-        width: 45%;
-        //   flex-direction: column;
+        position: relative;
+
+        .workdata_date {
+          position: absolute;
+          top: -150px;
+        }
+        .workdata_title {
+          width: 30%;
+          margin-bottom: 15px;
+        }
+        .workdata_info {
+          font-size: 12px;
+          margin-bottom: 20px;
+          width: 65%;
+        }
       }
       button {
-        border-radius: 40px;
-        width: 45%;
+        border-radius: 50px;
+        width: 35%;
         padding: 5px 19px;
         font-size: 7px;
         background-color: transparent;
@@ -21,22 +36,30 @@
         background-color: black;
         color: #fff;
       }
+      p {
+        font-size: 10px;
+      }
+
       #workdata_box_right {
         display: grid;
         grid-template-columns: 2fr 2fr;
-        gap: 10;
-        #left {
-          margin: 8px;
-        }
+        gap: 10px;
+
         .brand_img {
           width: 100%;
-          height: 30vh;
+        }
+        .brand_title {
+          font-size: 17px;
+          margin-bottom: 5%;
+        }
+        .brand_info {
+          font-size: 12px;
+          font-weight: 500;
+
+          margin-bottom: 20px;
+          width: 40%;
         }
       }
     }
   }
 }
-// .brand_img {
-//   width: 100%;
-//   height: 30vh;
-// }
