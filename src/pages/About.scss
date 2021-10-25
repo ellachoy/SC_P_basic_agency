@@ -1,0 +1,60 @@
+.About {
+  color: #f9cdcd;
+  background-color: #252422;
+  .About_upper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f9cdcd;
+
+    .flex_down {
+      margin: 0;
+      padding: 15% 0 0 35%;
+
+      .companie_info {
+        width: 100%;
+      }
+    }
+  }
+  .About_below {
+    border-bottom: 1px solid #f9cdcd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120vh;
+
+    .below_text {
+      width: 15%;
+      font-size: 12px;
+    }
+    #below_photos {
+      position: relative;
+    }
+    #eins img,
+    #zwei img,
+    #drei img,
+    #vier img {
+      width: 50%;
+    }
+  }
+  #eins {
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+  }
+  #zwei {
+    position: absolute;
+    left: -170px;
+    bottom: -200px;
+    width: 50rem;
+    z-index: 1;
+  }
+  #drei {
+    position: absolute;
+    right: 150px;
+    top: -60px;
+    width: 50rem;
+  }
+  #vier {
+  }
+}
