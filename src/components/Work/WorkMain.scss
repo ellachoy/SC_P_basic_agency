@@ -1,0 +1,30 @@
+.workpage {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  border-top: 1px solid darkgrey;
+  #workdata_box_left {
+    width: 50%;
+  }
+  button {
+    border-radius: 40px;
+    width: 45%;
+    padding: 5px 19px;
+    font-size: 7px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: black;
+    color: #fff;
+  }
+  .workdata_box_right {
+    display: flex;
+
+    figure {
+      .brand_img {
+        width: 70%;
+      }
+    }
+  }
+}
