@@ -2,6 +2,7 @@
   color: #f9cdcd;
   background-color: #252422;
   .About_upper {
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #f9cdcd;
@@ -16,6 +17,7 @@
     }
   }
   .About_below {
+    padding: 0 0 70px 50px;
     border-bottom: 1px solid #f9cdcd;
 
     display: flex;
@@ -24,12 +26,12 @@
     height: 120vh;
 
     .below_text {
-      width: 15%;
+      width: 35%;
       font-size: 12px;
     }
     #below_photos {
       position: relative;
-      margin-left: 25px;
+      margin-left: 325px;
     }
     #eins img,
     #zwei img,
@@ -39,19 +41,19 @@
     }
     #eins {
       position: absolute;
-      top: 250px;
-      right: -120px;
-      margin-right: 1rem;
+      top: 180px;
+      left: 70px;
+      width: 100%;
     }
     #zwei {
       position: absolute;
-      left: -50px;
-      top: 150px;
+      left: -80px;
+      top: 80px;
       z-index: 1;
     }
     #drei {
       position: absolute;
-      left: -155px;
+      left: -200px;
       top: -60px;
     }
     #vier {
