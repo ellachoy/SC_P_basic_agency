@@ -29,6 +29,7 @@
     }
     #below_photos {
       position: relative;
+      margin-left: 25px;
     }
     #eins img,
     #zwei img,
@@ -36,25 +37,28 @@
     #vier img {
       width: 50%;
     }
-  }
-  #eins {
-    position: absolute;
-    top: 250px;
-    right: -120px;
-  }
-  #zwei {
-    position: absolute;
-    left: -50px;
-    top: 150px;
-
-    z-index: 1;
-  }
-  #drei {
-    position: absolute;
-    left: -155px;
-    top: -60px;
-  }
-  #vier {
-    z-index: 2;
+    #eins {
+      position: absolute;
+      top: 250px;
+      right: -120px;
+      margin-right: 1rem;
+    }
+    #zwei {
+      position: absolute;
+      left: -50px;
+      top: 150px;
+      z-index: 1;
+    }
+    #drei {
+      position: absolute;
+      left: -155px;
+      top: -60px;
+    }
+    #vier {
+      z-index: 2;
+    }
+    #below_photos img:hover {
+      z-index: 999;
+    }
   }
 }
