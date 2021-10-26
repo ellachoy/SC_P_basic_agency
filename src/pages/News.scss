@@ -1,20 +1,27 @@
-.BasicNews {
-  #basicnews_title {
-    padding: 150px 100px 50px 0;
+.MainNews {
+  #mainnews_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15%;
   }
+
   .news_container {
     display: flex;
     justify-content: space-evenly;
 
-    border-top: 1px solid #f9cdcd;
+    border-top: 1px solid darkgrey;
     padding: 10px 0 35px;
     .com_title {
-      width: 50%;
-      font-size: 1.5em;
+      width: 60%;
+      font-size: 1.4em;
+      font-weight: 300;
+      margin-bottom: 28px;
     }
 
     .basicnews_img {
       height: 40vh;
+
       padding-right: 15px;
     }
     .basicnews_arrow {
@@ -22,12 +29,6 @@
       align-self: flex-start;
     }
     .com_description {
-      padding-top: 70px;
-      font-size: 10px;
-
-      span {
-        margin-left: 10px;
-      }
     }
   }
 }

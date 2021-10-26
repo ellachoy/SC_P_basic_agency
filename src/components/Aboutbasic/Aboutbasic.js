@@ -84,6 +84,40 @@ const Aboutbasic = () => {
                         <button id="btn_pink">Full awardlist</button>
                     </div>
                 </article>
+                <article className="aboutAwards">
+                <div>
+                    <div className="aboutAwards_last">
+                        <h1 className="aboutAwardsTitle">WEEBY AWARDS</h1>
+                        <p>/40</p>
+                    </div>
+
+                    <div className="aboutAwards_last">
+                        <h1 className="aboutAwardsTitle">ADWEEK</h1>
+                        <p>/01</p>
+                    </div>
+
+                    <div className="aaboutAwards_last">
+                        <h1 className="aboutAwardsTitle">AWWARDS </h1>
+                        <p>/22</p>
+                    </div>
+
+                    <div className="aboutAwards_last">
+                        <h1 className="aboutAwardsTitle">D&AD</h1>
+                        <p>/01</p>
+                    </div>
+
+                    <div className="aboutAwards_last">
+                        <h1 className="aboutAwardsTitle">ONE SHOW </h1>
+                        <p>/03</p>
+                    </div>
+
+                    <div className="aboutAwards_last">
+                        <h1 className="aboutAwardsTitle">THE FWA </h1>
+                        <p>/07</p>
+                    </div>
+                </div>
+                </article>
+                
         </section>
      );
 } 

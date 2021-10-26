@@ -49,4 +49,13 @@
       margin: 30px 0;
     }
   }
+  .aboutAwards {
+    padding-bottom: 150px;
+    .aboutAwards_last {
+      display: flex;
+      p {
+        margin-top: 1%;
+      }
+    }
+  }
 }
