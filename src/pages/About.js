@@ -4,6 +4,7 @@ import  eins from '../assets/img/About-Gallery_4.jpg';
 import  zwei from '../assets/img/About-Gallery_2.jpg';
 import  drei from '../assets/img/About-Gallery_1.jpg';
 import  vier from '../assets/img/About-Gallery_3.jpg';
+import Aboutbasic from '../components/Aboutbasic/Aboutbasic';
 // sfc
 const About = () => {
     return (
@@ -30,10 +31,10 @@ const About = () => {
                         <img src={vier}  alt="" />
                      </div>
                      <div id= "vier">
-                    <img src={eins}  alt="" />  
+                        <img src={eins}  alt="" />  
                     </div>     
                     <div id= "zwei">  
-                    <img src={zwei}  alt="" /> 
+                        <img src={zwei}  alt="" /> 
                      </div>    
                     
                     <div id= "eins">
@@ -41,6 +42,7 @@ const About = () => {
                     </div>   
                </div>
             </article>
+            <Aboutbasic/>
         </main>
     );
 }
