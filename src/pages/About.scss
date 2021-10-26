@@ -39,22 +39,22 @@
   }
   #eins {
     position: absolute;
-    bottom: -150px;
-    right: -150px;
+    top: 250px;
+    right: -120px;
   }
   #zwei {
     position: absolute;
-    left: -170px;
-    bottom: -200px;
-    width: 50rem;
+    left: -50px;
+    top: 150px;
+
     z-index: 1;
   }
   #drei {
     position: absolute;
-    right: 150px;
+    left: -155px;
     top: -60px;
-    width: 50rem;
   }
   #vier {
+    z-index: 2;
   }
 }
