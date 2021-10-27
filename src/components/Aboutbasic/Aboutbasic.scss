@@ -58,4 +58,12 @@
       }
     }
   }
+  .aboutAwards h1,
+  .aboutAwards p {
+    opacity: 0.5;
+  }
+  .aboutAwards h1:hover,
+  .aboutAwards p:hover {
+    opacity: 1;
+  }
 }
