@@ -1,0 +1,44 @@
+.Tinkingpage {
+  background-color: #252422;
+  color: #f9cdcd;
+  #top_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+  .thinking_topflex {
+    display: flex;
+    width: 65%;
+    margin-bottom: 10%;
+    .thinkingBrandbeats {
+      padding-right: 10%;
+    }
+    .rosaText {
+      margin-top: 5%;
+      font-size: 12px;
+    }
+  }
+
+  .thinking_container {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #f9cdcd;
+    padding: 10px 0 35px;
+    .news_info {
+      margin-right: 45%;
+    }
+    .thinking_description {
+      padding-top: 50%;
+    }
+
+    .thinking_img {
+      height: 40vh;
+    }
+    .thinking_arrow {
+      width: 2.5%;
+      align-self: flex-start;
+    }
+  }
+}
