@@ -1,6 +1,9 @@
 import React from 'react';
 import './Contact.scss';
 import ContactHeader from '../assets/img/Contact-Header.jpg'
+import SD from '../assets/img/SD.jpg';
+import Mtv from '../assets/img/mtv.jpg';
+import Stl from '../assets/img/stl.jpg';
 // sfc
 const Contact = () => {
     return (
@@ -43,6 +46,37 @@ const Contact = () => {
                     </div>
                 </div>
                
+            </section>
+            <div id="contactLine"></div>
+            <section className="contactImgs">
+                <div className="upGrid">
+                        <p className="upItem1">SEC.</p>
+                        <p className="upItem2">/A</p>           
+                        <p className="upItem3 ">●</p>         
+                </div>
+                <div className="middleGrid">
+                    <div className="right">
+                            <h4 className="rightTitle">OFFICES</h4>
+                    </div>
+                    <div className="left" >
+                        <div className="figure">
+                            <img id="leftImg" src={SD} alt="1" />
+                            <p> SAN DIEGO (HQ)</p>
+                        </div>
+                        <div id="middleLine"></div>
+                        <div className="figure">
+                            <img id="leftImg" src={Mtv} alt="2" />
+                            <p>BAY AREA</p>
+                        </div>
+                        <div id="middleLine"></div>
+                        <div className="figure">
+                            <img id="leftImg" src={Stl} alt="3" />
+                            <p>ST. LOUIS</p>
+                        </div>
+                        <div id="middleLine"></div>
+
+                    </div>
+                </div>
             </section>
         </main>
     );

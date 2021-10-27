@@ -31,4 +31,41 @@
       }
     }
   }
+  #contactLine {
+    border-top: 1px solid darkgrey;
+  }
+  .contactImgs {
+    padding: 10px 50px;
+
+    .upGrid {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+    }
+    .middleGrid {
+      padding: 50px 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      .left {
+        border-left: 1px solid darkgrey;
+        .figure {
+          display: flex;
+          padding: 10px 10% 10%;
+          p {
+            margin-left: 20px;
+            font-size: 12px;
+          }
+
+          #leftImg {
+            width: 100%;
+          }
+        }
+        #middleLine {
+          border-top: 1px solid darkgrey;
+          width: 180%;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
 }
