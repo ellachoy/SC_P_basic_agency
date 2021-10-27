@@ -14,15 +14,15 @@ const News = () => {
             {MainnewsData.map((mainnews,elt)=> <div key={elt} className="BasicNews">
            <article className="news_container">
                
-                <img src={mainnews.image} alt="com" className="basicnews_img"/>
+                <img src={mainnews.image} alt="com" className="mainNews_img"/>
               
                 <div className="news_info">
-                    <h3 className="com_title">{mainnews.title}</h3>
+                    <h3 className="mNews_title">{mainnews.title}</h3>
                    
-                    <p className="com_description">
+                    <p className="mNews_description">
                     {mainnews.date}</p>
                 </div>
-                <img src={mainnews.arrow} alt="arrow" className="basicnews_arrow"/>
+                <img src={mainnews.arrow} alt="arrow" className="mNews_arrow"/>
             </article>
         </div>
     )}    

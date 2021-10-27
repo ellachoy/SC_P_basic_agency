@@ -30,7 +30,7 @@ const Thinking = () => {
                
                 <img src={thinking.image} alt="com" className="thinking_img"/>
               
-                <div className="news_info">
+                <div className="thinking_info">
                     <h3 className="thinking_title">{thinking.title1}</h3>
                     <h3 className="thinking_title">{thinking.title2}</h3>
                     <h3 className="thinking_title">{thinking.title3}</h3>

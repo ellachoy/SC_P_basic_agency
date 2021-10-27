@@ -1,0 +1,34 @@
+.ContactPage {
+  background-color: #f4f4f4;
+  font-size: 1em;
+  .contact_top {
+    display: flex;
+    #contactHeaderImg {
+      padding-right: 2%;
+      width: 50%;
+    }
+    .contact_Topsec {
+      padding: 100px 0;
+      .sloganBox {
+        .contactSlogan {
+          font-size: 10px;
+        }
+      }
+      .contactMails {
+        display: flex;
+        padding-top: 60%;
+
+        .contactGrid {
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+          gap: 30%;
+          margin-left: 60%;
+          #email {
+            padding-top: 10%;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

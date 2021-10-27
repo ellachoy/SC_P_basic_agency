@@ -1,4 +1,5 @@
 .MainNews {
+  background-color: #f4f4f4;
   #mainnews_flex {
     display: flex;
     justify-content: space-between;
@@ -11,20 +12,23 @@
     justify-content: space-evenly;
 
     border-top: 1px solid darkgrey;
-    padding: 10px 0 35px;
-    .com_title {
+    padding: 10px 0 15px;
+    .mNews_title {
       width: 60%;
       font-size: 1.4em;
       font-weight: 300;
       margin-bottom: 28px;
     }
+    .mNews_description {
+      padding-top: 60px;
+      font-size: 12px;
+    }
 
-    .basicnews_img {
+    .mainNews_img {
       height: 40vh;
-
       padding-right: 15px;
     }
-    .basicnews_arrow {
+    .mNews_arrow {
       width: 2.5%;
       align-self: flex-start;
     }

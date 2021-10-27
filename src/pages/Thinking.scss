@@ -26,17 +26,20 @@
 
     border-top: 1px solid #f9cdcd;
     padding: 10px 0 35px;
-    .news_info {
-      margin-right: 45%;
+    .thinking_img {
+      height: 45vh;
     }
-    .thinking_description {
-      font-size: 12px;
-      padding-top: 55%;
+    .thinking_info {
+      margin-right: 30%;
+      .thinking_title {
+        font-size: 1.5rem;
+      }
+      .thinking_description {
+        font-size: 12px;
+        padding-top: 40%;
+      }
     }
 
-    .thinking_img {
-      height: 40vh;
-    }
     .thinking_arrow {
       width: 2.5%;
       align-self: flex-start;
