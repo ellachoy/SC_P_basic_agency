@@ -8,15 +8,15 @@ import {
 } from "react-router-dom";
 
 // dependencies & eigene components mittig importieren
-import Header from './components/Header/Header';
-import Basic from './pages/Basic';
-import Work from './pages/Work';
-import About from './pages/About';
-import News from './pages/News';
-import Thinking from './pages/Thinking';
-import Contact from './pages/Contact';
-import Menu from './pages/Menu';
-import Footer from './components/Footer/Footer';
+import Header from '../components/Header/Header';
+import Basic from './Basic';
+import Work from './Work';
+import About from './About';
+import News from './News';
+import Thinking from './Thinking';
+import Contact from './Contact';
+import Menu from './Menu';
+import Footer from '../components/Footer/Footer';
 
 
 // best practice: css am Ende importieren
